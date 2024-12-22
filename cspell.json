@@ -1,0 +1,10 @@
+{
+  "version": "0.2",
+  "ignorePaths": ["cspell.json", "public", "src/assets"],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "flagWords": ["hte", "hate", "fuck"],
+  "words": [],
+  "ignoreWords": [],
+  "import": []
+}

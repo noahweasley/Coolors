@@ -10,11 +10,7 @@ export function convertRGBtoHEX([r, g, b]) {
 }
 
 export function generatorRandomColor() {
-  return [
-    Math.round(Math.random() * 255),
-    Math.round(Math.random() * 255),
-    Math.round(Math.random() * 255),
-  ];
+  return [Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255)];
 }
 
 export function isColorDark([r, g, b]) {

@@ -1,15 +1,10 @@
 import "../styles/App.css";
 import { useState } from "react";
-import {
-  getComplementary,
-  convertRGBtoHEX,
-  generatorRandomColor,
-  isColorDark,
-} from "../utils/util";
+import { getComplementary, convertRGBtoHEX, generatorRandomColor, isColorDark } from "../utils/util";
 
 import ColorContainer from "../components/ColorContainer";
 
-export default function App() {
+export default function ColorGenerator() {
   const [bgColor, setBgColor] = useState([255, 255, 255]);
   const [fgColor, setFgColor] = useState([0, 0, 0]);
   const [isCopied1, setIsCopy1] = useState(false);
